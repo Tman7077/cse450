@@ -21,9 +21,6 @@
 `genre`: *(categorical\*)*: Genre of the movie.
 - Stored as a list of categories such as "Action, Adventure" - can be converted to categorical.
 
-`rating`: *(numeric)*: IMDB rating of the movie.
-- Scale of 0-10.
-
 `director`: *(categorical\*)*: Name(s) of the director of the movie.
 - Stored as a list of names such as "Alice, Bob" - can be converted to categorical.
 
@@ -38,6 +35,9 @@
 
 `votes`: *(numeric)*: Number of votes on the IMDB website.
 
+`gross(in $)`: *(numeric)*: Gross Box Office of the movie.
+
 ## Output variable
 
-`gross(in $)`: *(numeric)*: Gross Box Office of the movie.
+`rating`: *(numeric)*: IMDB rating of the movie.
+- Scale of 0-10.
